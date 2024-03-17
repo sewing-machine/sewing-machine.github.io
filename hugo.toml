@@ -5,5 +5,34 @@ title = 'Усатый шьет'
 
 theme = "PaperMod"
 
+[taxonomies]
+  tag = "tags"
+
+[params.fuseOpts]
+	isCaseSensitive = false
+	shouldSort = true
+	location = 0.0
+	distance = 1000.0
+	threshold = 0.4
+	minMatchCharLength = 0.0
+	keys = [
+		"title",
+		"permalink",
+		"summary",
+		"content"
+	]
+
+[menu]
+    [[menu.main]]
+        name = "Маркет"
+        weight = -30
+        identifier = "market"
+        url = "/market/"
+	[[menu.main]]
+        name = "Поиск"
+        identifier = "search"
+        url = "/search/"
+        weight = -10
+
 enableRobotsTXT = true
 
