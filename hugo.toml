@@ -5,8 +5,23 @@ title = 'Усатый шьет'
 
 theme = "PaperMod"
 
+defaultContentLanguage = "ru"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
 [taxonomies]
   tag = "tags"
+
+[params]
+	env = "production"
+    keywords = [
+        "Усатый шьет",
+        "Кастомный пошив из кордуры",
+        ]
+	yandexMetrika = "71539801"
 
 [params.fuseOpts]
 	isCaseSensitive = false
